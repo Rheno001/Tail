@@ -639,12 +639,24 @@ video {
   inset: -0.25rem;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.top-32 {
+  top: 8rem;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .float-start {
@@ -705,6 +717,10 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .box-border {
@@ -806,6 +822,14 @@ video {
   display: none;
 }
 
+.h-5\/6 {
+  height: 83.333333%;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -816,6 +840,14 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.w-2\/4 {
+  width: 50%;
 }
 
 .flex-1 {
@@ -1702,6 +1734,11 @@ video {
   border-top-right-radius: 0.25rem;
 }
 
+.rounded-l-full {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
 .rounded-bl {
   border-bottom-left-radius: 0.25rem;
 }
@@ -1804,6 +1841,11 @@ video {
 .bg-bookmark-red {
   --tw-bg-opacity: 1;
   background-color: rgb(250 89 89 / var(--tw-bg-opacity));
+}
+
+.bg-bookmark-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 103 223 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2592,14 +2634,52 @@ video {
     display: none;
   }
 
+  .sm\:h-3\/4 {
+    height: 75%;
+  }
+
+  .sm\:w-3\/4 {
+    width: 75%;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
 }
 
+@media (min-width: 768px) {
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+}
+
 @media (min-width: 1024px) {
+  .lg\:-bottom-28 {
+    bottom: -7rem;
+  }
+
+  .lg\:-right-36 {
+    right: -9rem;
+  }
+
   .lg\:mt-28 {
     margin-top: 7rem;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .lg\:flex-row {
